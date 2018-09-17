@@ -1,0 +1,11 @@
+// Infix, prefix, postfix
+Binary operator: An operator that requires exactly two operands eg: a + b , here a,b are operands + is operator 
+For multiple operators, we need to follow some rules to evaluate expression
+Order of operation
+------------------
+1) parenthesis: () {} []
+2) Exponents: 2^3^2 - order: right to left 
+3) Multiplication and division - Order: left to right
+4) Addition and substraction - order: left to right
+eg: 2*6/2-3+7 -> here * and / will occupy same precedence so evaulate from left
+=> 12/2-3+7 => 6-3+7 => 3+7 = 10
