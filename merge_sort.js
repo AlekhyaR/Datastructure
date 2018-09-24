@@ -1,4 +1,5 @@
 Merge Sort pseudo code
+======================
 MergeSort(A){
   n <- length(A)
   if(n<2) return;
@@ -26,5 +27,14 @@ Merge(L,R,A){
       j = j+1
     k = k+1
   } 
-  
+  while(i<nL){
+    A[k] = L[i]
+    i = i+1;
+    k = k+1;
+  }
+  while(j<nR){
+    A[k]=R[i]
+    j = j+1
+    k = k+1
+  }
 }
