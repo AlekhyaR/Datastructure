@@ -6,7 +6,7 @@ MergeSort(A){
   mid <- n/2
   L <- arr of size(mid)
   R <- arr of size(n-mid)
-  for i <- 1tomid
+  for i <- 1 to mid
     L[i]<- A[i]
   for i <- mid to n-1
     R[i-mid] <- A[i]
@@ -38,3 +38,8 @@ Merge(L,R,A){
     k = k+1
   }
 }
+
+Timecomplexity:
+worst case running time: O(nlogn)
+space complexity: O(n)
+Not inplace sorting
